@@ -20,7 +20,6 @@ public class SaveManager : MonoSingleton<SaveManager>
     {
         base.Init();
 
-        PlayerPrefs.DeleteAll();
         if (PlayerPrefs.HasKey("CURRENT_LEVEL"))
         {
             // Initialize level states
